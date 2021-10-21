@@ -1,0 +1,23 @@
+{
+  "name": "import-excel",
+  "version": "1.0.0",
+  "description": "aplicacion de importacion de datos excel a postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonjuarez/import-excel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonjuarez/import-excel/issues"
+  },
+  "homepage": "https://github.com/simonjuarez/import-excel#readme",
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
