@@ -2,22 +2,36 @@
   "name": "import-excel",
   "version": "1.0.0",
   "description": "aplicacion de importacion de datos excel a postgresql",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js, .html -f ./node_modules/eslint-"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/simonjuarez/import-excel.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Simon Juarez /@",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/simonjuarez/import-excel/issues"
   },
   "homepage": "https://github.com/simonjuarez/import-excel#readme",
   "devDependencies": {
-    "eslint": "^8.0.1"
+    "eslint": "^8.0.1",
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "multer": "^1.4.3",
+    "pg": "^8.7.1",
+    "read-excel-file": "^5.2.20"
   }
 }
